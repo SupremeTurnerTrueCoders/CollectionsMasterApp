@@ -87,7 +87,7 @@ namespace CollectionsMasterConsoleUI
 
             //TODO: Print the new capacity
 
-            Console.WriteLine($"New Capacity: {numList.Capacity}")
+            Console.WriteLine($"New Capacity: {numList.Capacity}");
 
             Console.WriteLine("---------------------");
 
