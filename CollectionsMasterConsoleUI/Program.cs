@@ -46,10 +46,7 @@ namespace CollectionsMasterConsoleUI
 
             ReverseArray(numbers);
 
-            foreach (var number in Array)
-            {
-                Console.WriteLine($"");
-            }
+            NumberPrinter(numbers);
             Console.WriteLine("-------------------");
 
             //TODO: Create a method that will set numbers that are a multiple of 3 to zero then print to the console all numbers
@@ -207,7 +204,7 @@ namespace CollectionsMasterConsoleUI
 
         private static void ReverseArray(int[] array)
         {
-            array.Reverse(array);
+            Array.Reverse(array);
         }
 
         /// <summary>
